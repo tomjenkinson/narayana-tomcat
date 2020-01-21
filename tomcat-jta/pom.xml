@@ -413,6 +413,14 @@
                     </plugins>
                 </pluginManagement>
             </build>
+            <dependencies>
+              <dependency>
+                  <groupId>postgresql</groupId>
+                  <artifactId>postgresql</artifactId>
+                  <version>${version.postgresql}</version>
+                  <scope>test</scope>
+              </dependency>
+            </dependencies>
         </profile>
         <profile>
             <id>container</id>
@@ -449,6 +457,14 @@
                     </plugins>
                 </pluginManagement>
             </build>
+            <dependencies>
+              <dependency>
+                  <groupId>postgresql</groupId>
+                  <artifactId>postgresql</artifactId>
+                  <version>${version.postgresql}</version>
+                  <scope>test</scope>
+              </dependency>
+            </dependencies>
         </profile>
         <profile>
             <id>dballocator</id>
@@ -479,6 +495,14 @@
                     </plugins>
                 </pluginManagement>
             </build>
+            <dependencies>
+              <dependency>
+                  <groupId>postgresql</groupId>
+                  <artifactId>postgresql</artifactId>
+                  <version>${version.postgresql}</version>
+                  <scope>test</scope>
+              </dependency>
+            </dependencies>
         </profile>
         <profile>
             <id>codeCoverage</id>
